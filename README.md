@@ -1,6 +1,23 @@
-# Module-9-Challenge
-This is the final code for the SQL Challenge. In the completed file is the data engineering portion which creates tables for the related CSV files. It also specifies the primary and foreign keys. The second part is the data analysis part which answers the relevant questions listed in the rubric.
+# SQL Project: Data Engineering and Analysis
+This project involved data engineering and analysis tasks using SQL. In PostgreSQL I designed tables to hold data from CSV files, imported the CSV files into a SQL database, and then performed data analysis by answering questions about the data. The project was divided into two main parts: data engineering and data analysis.
 
-Credit and Assistance-
 
-Class lecture and activites were very helpful in understanding this project. In addition Stack Overflow helped in understanding key questions with the code.
+## Data Engineering
+In this part, I:
+* Used the provided information to create a table schema for each of the six CSV files.
+Specified data types, primary keys, foreign keys, and other constraints for each table.
+Created tables in the correct order to handle foreign keys.
+Imported each CSV file into its corresponding SQL table.
+Data Analysis
+In this part, I:
+
+Executed SQL queries to answer specific questions about the data, such as listing employee details and department information.
+Utilized SQL functions for filtering, joining, and aggregating data to derive meaningful insights.
+Optimized query performance for efficient data retrieval.
+Project Structure
+data_engineering.sql: SQL script for creating table schemas and importing CSV data.
+data_analysis.sql: SQL script for executing data analysis queries.
+README.md: Documentation providing an overview of the project, setup instructions, and details about the data engineering and analysis tasks.
+Dependencies
+SQL database management system (e.g., MySQL, PostgreSQL)
+CSV files provided for data import
