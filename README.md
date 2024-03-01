@@ -5,19 +5,18 @@ This project involved data engineering and analysis tasks using SQL. In PostgreS
 ## Data Engineering
 In this part, I:
 * Used the provided information to create a table schema for each of the six CSV files.
-Specified data types, primary keys, foreign keys, and other constraints for each table.
-Created tables in the correct order to handle foreign keys.
-Imported each CSV file into its corresponding SQL table.
-Data Analysis
+* Specified data types, primary keys, foreign keys, and other constraints for each table.
+* Created tables in the correct order to handle foreign keys.
+* Imported each CSV file into its corresponding SQL table.
+
+## Data Analysis
 In this part, I:
 
-Executed SQL queries to answer specific questions about the data, such as listing employee details and department information.
-Utilized SQL functions for filtering, joining, and aggregating data to derive meaningful insights.
-Optimized query performance for efficient data retrieval.
-Project Structure
-data_engineering.sql: SQL script for creating table schemas and importing CSV data.
-data_analysis.sql: SQL script for executing data analysis queries.
-README.md: Documentation providing an overview of the project, setup instructions, and details about the data engineering and analysis tasks.
-Dependencies
-SQL database management system (e.g., MySQL, PostgreSQL)
-CSV files provided for data import
+* Executed SQL queries to answer specific project questions about the data, such as listing employee details and department information.
+* Utilized SQL functions for filtering, joining, and aggregating data to derive meaningful insights.
+* Optimized query performance for efficient data retrieval.
+
+## Project Structure
+SQL_Challenge_File.sql: SQL script for creating table schemas and importing CSV data followed by executing data analysis queries.
+
+
